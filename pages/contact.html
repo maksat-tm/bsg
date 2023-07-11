@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Грузоперевозки логистика и транспорт">
+		<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+      <link rel="manifest" href="../favicon/site.webmanifest">
+		<link rel="stylesheet" href="sweet-modal/dist/min/jquery.sweet-modal.min.css" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/webfonts/all.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<title data-lang="contact_page-title">Black Sea Georgia</title>
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=a5ea0f6f-107b-42f1-9f87-fc6b4bbeb611&lang=ru_RU" type="text/javascript">
+		</script>
+		<script defer src="../js/app.js"></script>
+		<script defer src="../js/contactform.js"></script>
+		<script defer src="../js/script.js"></script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+		<header class="header">
+			<a href="../index.html"><img src="../images/logo.png" alt="company logo"></a>
+				<nav class="navbar">
+					<a href="../index.html" class="nav-link" data-lang="home"></a>
+					<a href="./about.html" class="nav-link " data-lang="about"></a>
+					<a href="./services.html" class="nav-link" data-lang="services"></a>
+					<a href="./contact.html" class="nav-link active" data-lang="contacts"></a>
+				</nav>
+               <div class="lang-btn-box">
+                  <button class="header__btn" data-btn="ge">Ge</button>
+				      <button class="header__btn" data-btn="en">En</button>
+						<button class="header__btn" data-btn="ru">Ru</button>
+					</div>
+				<div id="menu-btn" class="fas fa-bars"></div>
+		</header>
+		<section class="home">
+			<div class="swiper mySwiper">
+				 <div class="swiper-wrapper">
+					  <div class="home-slide">
+							<img src="../images/home-bg-3.jpg" alt="contact page image">
+							<div class="content">
+								<h1 class="page-title" data-lang="contact_page-home-title">Контакты</h1>
+							</div>
+					  </div>
+				  </div>
+				  <div class="scroll-down-btn">
+					  <img src="../icons/down-arrow.png" alt="down arrow icon" class="arrow-down">
+				  </div>
+			 </div>
+	  </section> 
+		<secton class="contact" data-aos="zoom-in" data-aos-duration="1500">
+			<h2 class="section-title" data-lang="contact_page-title-1">Наши Контакты</h2>
+			<div class="contact-wrapper">
+			<div class="container">
+				<div class="contact-box">
+					<div class="col-left">
+					    <p class="lable-text" data-lang="contact_page-title-2">Связаться с нами</p>
+						    <div class="col-left-box">
+								<span>PHONE :</span>
+								<a href="tel:+995568231199">+995 568 23 11 99</a>
+						    </div>
+						    <div class="col-left-box">
+								<span>EMAIL :</span>
+								<a href="MailTo:ops@bsgeorgia.ge">ops@bsgeorgia.ge</a>
+						    </div>
+						    <div class="col-left-box">
+								<span>ADDRESS :</span>
+							    <p> Georgia, Poti Gegidze 7</p>
+						    </div>	
+						</div>
+					<div class="col-right">
+						<p class="lable-text" data-lang="contact_page-title-3">Остались вопросы? Отправьте нам сообшение мы обьязательно свяжемся с Вами</p>
+						  <form >
+							<!-- Hidden Required Fields -->
+		                  <input type="hidden" name="project_name" value="bs-georgia.ge">
+		                  <input type="hidden" name="admin_email" value="ops@bsgeorgia.ge">
+		                  <input type="hidden" name="form_subject" value="Form Subject">
+
+	               	<!-- END Hidden Required Fields -->
+							<div class="col-right-box">
+								<div class="form-group">
+									<label for="name" class="form-label" data-lang="contact_page-title-4">Ваше имя</label>
+									<input type="text" class="form-control" name="Name" id="name" value="" placeholder="" autocomplete="given-name" required="">
+								</div>
+								<div class="form-group">
+									<label for="email" class="form-label" data-lang="contact_page-title-6">Ваш Email</label>
+									<input type="email" class="form-control" name="Email" id="email" value="" placeholder="" autocomplete="given-email" required="">
+								</div>
+								<div class="form-group">
+									<label for="phone" class="form-label" data-lang="contact_page-title-5">Телефон</label>
+									<input type="text" class="form-control" name="Phone" id="phone" value="" placeholder="+995" autocomplete="given-number" required="">
+								</div>
+								<div class="form-group">
+									<label for="message" class="form-label" data-lang="contact_page-title-7">Ваше сообшение</label>
+									<textarea class="form-control" name="message" placeholder="" id="message" style="height: 100px"></textarea>
+								</div>
+								<div class="check-box">
+								<input type="checkbox" class="checked" name="tel" id="tel" autocomplete="given-name">
+									<p data-lang="contact_page-title-8">Я соглашаюсь с</p>
+									<a href="pages/politica.html" data-lang="contact_page-title-9">privacy policy</a>	
+								</div>
+								<div class="links-box">
+								<button type="submit" id="order-link" name="submit" data-lang="contact_page-title-10">Submit</button>
+							</div>
+						</div>
+						  </form>
+					</div>
+				</div>
+	     </div>
+   </div>
+</secton>
+<section class="map">
+	<div id="map" style="width: 100%; height: 500px; margin-top: 20px;"></div>
+</section>
+<div class="logo-box">
+	<a href="../index.html"><img src="../images/logo.png" alt="company logo"></a>
+</div>
+<footer class="footer">
+<div class="container">
+	<div class="row">
+		<div class="footer-col">
+			<h4 class="footer-liks-title" data-lang="links-title-1">Company</h4>
+			<ul>
+				<li><a href="../index.html" data-lang="footer-home">Home</a></li>
+				<li><a href="./about.html" data-lang="footer-about">About Us</a></li>
+				<li><a href="./services.html" data-lang="footer-services">Services</a></li>
+				<li><a href="./contact.html" data-lang="footer-contacts">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<h4 class="footer-liks-title" data-lang="links-title-2">Get help</h4>
+			<ul>
+				<li><a href="../index.html">FAQ</a></li>
+				<li><a href="./services.html" data-lang="footer-shipping">Shipping</a></li>
+				<li><a href="./order.html" data-lang="footer-order">Order status</a></li>
+				<li><a href="./politica.html">Privacy policy</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<h4 class="footer-liks-title" data-lang="links-title-3">Contacts</h4>
+			<ul>
+				<li><a href="tel:+995568231199">+995 568 23 11 99</a></li>
+				<li><a href="tel:+995577280288">+995 577 28 02 88</a></li>
+				<li><a href="MailTo:ops@bsgeorgia.ge">ops@bsgeorgia.ge</a></li>
+				<li><a href="!#" data-lang="footer-address">Georgia, Poti Gegidze 7</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<h4 class="footer-liks-title" data-lang="links-title-4">Follow us</h4>
+			<div class="social-links">
+				<a href="https://www.facebook.com/profile.php?id=100094220982973&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+				<a href="!#"><i class="fab fa-instagram"></i></a>
+				<a href="https://wa.me/+995593491818"><i class="fab fa-whatsapp"></i></a>
+				<a href="!#"><i class="fab fa-telegram"></i></a>
+			</div>
+		</div>
+	</div>
+<div class="follow-btn">
+	<a href="https://wa.me/+995593491818"><img src="../icons/wa.png" alt="whatsapp icon"></a>
+</div>
+	<div class="copyright-box">
+		<p class="copyright">© 2023 Black Sea Georgia LTD</p>
+	</div>
+</div>
+</footer>      
+	  </div>
+	  <script>
+		ymaps.ready(init);
+		function init(){
+		  var myMap = new ymaps.Map("map", {
+			  center: [42.152379,41.665821],
+			  zoom: 14 
+		  });
+	  myMap.behaviors
+		  .disable(['drag', 'rightMouseButtonMagnifier','pinchZoom', 'mouseTilt','scrollZoom'])
+		  .enable('ruler');
+	  var glyphIcon = new ymaps.Placemark([42.152379,41.665821], {}, {
+		  preset: 'islands#glyphIcon', 
+		  iconGlyph: 'home',
+		  iconGlyphColor: 'blue'
+  });
+	  myMap.geoObjects
+	  .add(glyphIcon)
+	  }
+	 </script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	  <script src="sweet-modal/dist/min/jquery.sweet-modal.min.js"></script>
+	  <script>
+		   let sentBtn = document.querySelector('#order-link');
+
+			sentBtn.addEventListener('click', () => {
+				$.sweetModal({
+	content: 'This is a success.',
+	icon: $.sweetModal.ICON_SUCCESS
+});
+			})
+	  </script>
+	</body>
+</html>
